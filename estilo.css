@@ -1,0 +1,113 @@
+header, footer{
+    padding: 1em;
+    color: goldenrod;
+    background-color: navy;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin:0;
+    padding: 1em;
+}
+
+nav ol{
+    list-style-type:decimal;
+    color: darkred;
+    padding: 0;
+}
+
+nav ol a{
+    text-decoration: none;
+}
+
+article{
+    margin-left: 170 px;
+    border-left: 2px solid goldenrod;
+    padding: 1em;
+    overflow: hidden;
+    min-height: 388.5px;
+}
+
+h2{
+    font-size: 35px;
+	text-align: center;
+}
+
+h3{
+    color: darkred;
+}
+
+p{
+    text-align: justify;
+}
+
+.galeria{
+	display: flex;
+	max-width: 650px;  
+	height: 250px;     
+}
+
+.galeria img{
+	width: 0px;
+	flex-grow: 1;
+	object-fit: contain;
+	transition: .5s ease;
+}
+
+.galeria img:hover{
+	cursor: crosshair;
+	width: 400px; 
+}
+
+table{
+    border-collapse: collapse;
+    width: 30%;
+    margin: auto;
+}
+
+table tr:first-child{
+    background-color: darkred;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+th, td{
+    border: 1px solid darkred;
+    padding: 8px;
+    text-align: center;
+}
+
+aside{
+    text-align: right;
+}
+
+/*---------------------------------------------*/
+.seccion-web2 h2,
+.seccion-web2 strong{
+    color: darkgreen !important; 
+}
+
+/*---------------------------------------------*/
+.seccion-web3 h2,
+.seccion-web3 strong{
+    color: rgb(0, 81, 188) !important; 
+}
+
+/*---------------------------------------------*/
+.seccion-web4 h2,
+.seccion-web4 h3,
+.seccion-web4 strong{
+    color: rgb(152, 2, 160) !important; 
+    text-align: center;
+}
+
+/*---------------------------------------------*/
+.seccion-web5 h2,
+.seccion-web5 h3,
+.seccion-web5 strong{
+    color: rgb(63, 63, 63) !important; 
+    text-align: center;
+}
